@@ -28,6 +28,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZd-hO-Zv3">
+                                <rect key="frame" x="141" y="792" width="132" height="38"/>
+                                <color key="backgroundColor" red="0.0" green="0.70588235294117641" blue="0.86316374694409015" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="10" maxX="20" maxY="10"/>
+                                <state key="normal" title="プロフィール">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -36,6 +44,8 @@
                             <constraint firstItem="Xgi-DY-EZf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Raj-ae-I2j"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xgi-DY-EZf" secondAttribute="trailing" constant="16" id="d06-qz-H5i"/>
                             <constraint firstItem="bCR-aM-Zza" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="llz-K1-8NW"/>
+                            <constraint firstItem="eZd-hO-Zv3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oUf-7o-slh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eZd-hO-Zv3" secondAttribute="bottom" constant="32" id="oom-DK-YYg"/>
                             <constraint firstItem="bCR-aM-Zza" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="vmB-of-IRE"/>
                             <constraint firstItem="bCR-aM-Zza" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="w5N-Q1-19R"/>
                         </constraints>
