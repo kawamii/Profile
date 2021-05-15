@@ -35,6 +35,9 @@
                                 <state key="normal" title="プロフィール">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="tapButton1" destination="BYZ-38-t0r" eventType="touchUpInside" id="qvQ-4Y-UT5"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -50,6 +53,10 @@
                             <constraint firstItem="bCR-aM-Zza" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="w5N-Q1-19R"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="profileCommentLabel" destination="Xgi-DY-EZf" id="Jp9-di-kLF"/>
+                        <outlet property="profileImageView" destination="bCR-aM-Zza" id="bbf-pS-GNt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
