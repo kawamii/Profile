@@ -16,13 +16,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="philImage" translatesAutoresizingMaskIntoConstraints="NO" id="bCR-aM-Zza">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="philImage" translatesAutoresizingMaskIntoConstraints="NO" id="bCR-aM-Zza">
                                 <rect key="frame" x="0.0" y="44" width="414" height="320"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="320" id="8WN-gN-jSI"/>
+                                </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhoneメンターのフィルだよ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xgi-DY-EZf">
+                                <rect key="frame" x="16" y="380" width="382" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Xgi-DY-EZf" firstAttribute="top" secondItem="bCR-aM-Zza" secondAttribute="bottom" constant="16" id="Oov-GT-ICz"/>
+                            <constraint firstItem="Xgi-DY-EZf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Raj-ae-I2j"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xgi-DY-EZf" secondAttribute="trailing" constant="16" id="d06-qz-H5i"/>
+                            <constraint firstItem="bCR-aM-Zza" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="llz-K1-8NW"/>
+                            <constraint firstItem="bCR-aM-Zza" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="vmB-of-IRE"/>
+                            <constraint firstItem="bCR-aM-Zza" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="w5N-Q1-19R"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
